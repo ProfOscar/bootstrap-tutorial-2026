@@ -145,6 +145,59 @@ body {
 }
 
 
+/* MODAL STYLES BEGIN */
+
+#demo-modal .modal-content {
+    border-radius: 0;
+    padding: 2rem;
+}
+
+#demo-modal .modal-header {
+    border-bottom: none;
+}
+
+#demo-modal h4 {
+    color: #000;
+    font-size: 30px;
+    margin: 0 0 25px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+#demo-modal .btn-close {
+    position: absolute;
+    right: 26px;
+    top: 26px;
+    opacity: 0.5;
+}
+
+#demo-modal .modal-body p {
+    color: #999;
+}
+
+#demo-modal .form-control,
+#demo-modal .btn {
+    min-height: 46px;
+}
+
+#demo-modal .btn {
+    background-color: #1da098;
+    border: none;
+    color: #fff;
+    min-width: 150px;
+    transition: all 0.4s;
+}
+
+#demo-modal .btn:hover,
+#demo-modal .btn:focus {
+    background-color: #12968d;
+}
+
+/* MODAL STYLES END */
+
+
+/* MEDIA QUERY STYLES BEGIN */
+
 @media (max-width: 575.98px) {
     .description {
         left: 0;
@@ -172,3 +225,5 @@ body {
         margin: 0 auto;
     }
 }
+
+/* MEDIA QUERY STYLES END */
